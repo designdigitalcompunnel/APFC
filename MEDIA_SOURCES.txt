@@ -1,0 +1,57 @@
+APF CANADA TWO-PAGE WEBSITE - FRESH PEXELS MEDIA SOURCES
+Both pages keep their original structure and site content. Header and footer logos are retained.
+Old photos and videos from the template were removed from the ZIP.
+Replacement images and videos are hosted by Pexels and streamed over HTTPS.
+IMPORTANT: An internet connection is required to view the new media.
+The compact ZIP does not contain offline copies of Pexels media.
+Photo CDN URLs are standard Pexels images. Streaming video availability depends on Pexels CDN.
+No direct downloaded files are included because original videos would add substantial file weight.
+Pexels license: https://www.pexels.com/license/
+Stock photos/videos are illustrative, not actual images of APF Canada personnel or events.
+
+HOMEPAGE PHOTOS:
+canada-asia-dialogue-poster.jpg -> Colleagues collaborating on Canada–Asia priorities: https://www.pexels.com/photo/people-having-a-meeting-at-an-office-7688339/
+trade-and-research-poster.jpg -> Port trade and logistics containers: https://www.pexels.com/photo/a-port-with-shipping-containers-and-cranes-13025947/
+policy-roundtable-poster.jpg -> Professional group discussing documents: https://www.pexels.com/photo/diverse-businesspeople-discussing-documents-at-table-in-office-5673481/
+apf-research-card-09.jpg -> Multicultural group collaborating at a table: https://www.pexels.com/photo/a-group-of-people-planning-while-looking-at-the-laptop-7550298/
+apf-research-card-03.jpg -> Hong Kong port illustrating international trade: https://www.pexels.com/photo/cargo-containers-at-the-port-12999283/
+apf-approach-policy.jpg -> Policy and institutional meeting: https://www.pexels.com/photo/a-group-of-administration-inside-of-conference-room-3678057/
+apf-research-card-07.jpg -> Wind turbines and solar panels in Vietnam: https://www.pexels.com/photo/aerial-view-of-wind-turbines-and-solar-panels-35105428/
+apf-research-card-04.jpg -> Research team examining charts and evidence: https://www.pexels.com/photo/persons-holding-graphs-and-data-on-white-papers-7868972/
+apf-approach-coalition.jpg -> Asian businesswomen discussing professional initiatives: https://www.pexels.com/photo/businesswomen-discussing-in-a-meeting-7643754/
+apf-research-card-05.jpg -> Agricultural fields illustrating food security: https://www.pexels.com/photo/lush-agricultural-field-of-growing-crops-37413903/
+apf-research-card-08.jpg -> Researchers and students studying in a library: https://www.pexels.com/photo/people-studying-in-library-8199762/
+apf-research-card-01.jpg -> Professional using reports and laptop: https://www.pexels.com/photo/businessman-working-with-documents-and-using-laptop-in-an-office-10376233/
+apf-research-card-06.jpg -> Team collaborating on policy data: https://www.pexels.com/photo/a-people-looking-the-documents-together-7868966/
+apf-research-card-02.jpg -> Colleagues reviewing policy documents: https://www.pexels.com/photo/colleagues-looking-at-documents-8847135/
+apf-approach-knowledge.jpg -> Students sharing ideas in a computer lab: https://www.pexels.com/photo/a-group-of-people-in-a-computer-lab-laughing-5621976/
+apf-approach-advocates.jpg -> Multicultural business professionals at work: https://www.pexels.com/photo/business-people-looking-at-the-laptop-7652054/
+apf-asia-conference-still.jpg -> International professional team planning a partnership: https://www.pexels.com/photo/a-group-of-people-planning-their-business-6913339/
+apf-newsletter-background.jpg -> International container port and regional links: https://www.pexels.com/photo/vivid-shipping-container-port-with-cranes-34060583/
+
+RESEARCH PAGE PHOTOS:
+research-policy-poster.jpg -> Research analysts reviewing data: https://www.pexels.com/photo/diverse-team-analyzing-data-on-laptop-in-modern-office-39219944/
+apf-policy-dialogue-still.jpg -> Policy analysts examining research documents: https://www.pexels.com/photo/people-looking-at-a-document-7869310/
+apf-trade-chart-still.jpg -> Analysts discussing charts and trade intelligence: https://www.pexels.com/photo/people-looking-at-documents-8067800/
+apf-asia-conference-still.jpg -> Roundtable dialogue and international cooperation: https://www.pexels.com/photo/people-sitting-at-conference-table-6949523/
+apf-research-card-05.jpg -> Vietnamese farmers harvesting rice: https://www.pexels.com/photo/farmers-in-a-rice-field-harvesting-crops-5195318/
+apf-market-analysis-still.jpg -> South Korean conference with attendees discussing international issues (Indo-Pacific Outlook 2026 Vol. 2): https://www.pexels.com/photo/people-sitting-at-a-business-conference-4940642/
+apf-collaboration-still.jpg -> Open-pit mining operation for critical minerals: https://www.pexels.com/photo/aerial-view-of-industrial-open-pit-mining-operation-33122148/
+apf-research-card-01.jpg -> Minerals extraction and rock layers: https://www.pexels.com/photo/mine-in-mountains-15138922/
+apf-research-card-02.jpg -> Semiconductor and advanced technology collaboration: https://www.pexels.com/photo/close-up-of-computer-circuit-board-components-36169770/
+apf-research-card-06.jpg -> Digital networks and data centre infrastructure: https://www.pexels.com/photo/engineer-holding-laptop-1181316/
+apf-research-card-07.jpg -> Mine site for supply chain critical minerals analysis: https://www.pexels.com/photo/mining-excavation-on-a-mountain-2892618/
+
+VIDEOS:
+canada-asia-dialogue.mp4: https://www.pexels.com/video/people-working-together-7844849/
+  CDN: https://videos.pexels.com/video-files/7844849/7844849-hd_1920_1080_30fps.mp4
+trade-and-research.mp4: https://www.pexels.com/video/aerial-footage-of-containers-in-a-port-8782998/
+  CDN: https://videos.pexels.com/video-files/8782998/8782998-hd_1920_1080_30fps.mp4
+policy-roundtable.mp4: https://www.pexels.com/video/a-group-of-people-sitting-around-a-conference-table-6173215/
+  CDN: https://videos.pexels.com/video-files/6173215/6173215-hd_1920_1080_30fps.mp4
+research-policy-montage.mp4: https://www.pexels.com/video/footage-of-people-working-together-while-doing-a-research-9198355/
+  CDN: https://videos.pexels.com/video-files/9198355/9198355-hd_1920_1080_25fps.mp4
+
+Updated Research hero video (2026-11-12):
+Pexels: People Discussing Documents in a Meeting by Mikhail Nilov, https://www.pexels.com/video/people-discussing-documents-in-a-meeting-8731240/
+Streaming MP4: https://videos.pexels.com/video-files/8731240/8731240-hd_1920_1080_25fps.mp4

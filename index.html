@@ -1303,7 +1303,7 @@ img.apf-media, .rr-thumb img.apf-media, .rr-featured img, .loop img.apf-media {f
   margin-inline: auto !important;
   pointer-events: none !important;
 }
-/* Three vertical indicators, at the right-side midpoint of the entire banner. */
+/* Vertical slide indicators at the right-side midpoint of the banner. */
 .hero-wrap .hero-dots {
   position: absolute !important;
   top: 50% !important;
@@ -1361,6 +1361,27 @@ img.apf-media, .rr-thumb img.apf-media, .rr-featured img, .loop img.apf-media {f
 
 
 
+
+<style id="apf-homepage-photo-framing">
+/* Set the crop independently for each image. */
+#cust-2 .cust-img { object-position: 50% 32% !important; }
+.comm-loop .loop-video { object-position: 72% 0%; }
+.ind-loop .loop-video { object-position: 52% 42%; }
+@media (min-width: 641px) {
+  .comm-loop { height: clamp(280px, 33.333vw, 400px); }
+  .ind-loop { height: clamp(280px, 28.333vw, 340px); }
+}
+#newsletter .cta-bg { object-position: 50% 50%; }
+#newsletter::before {
+  background: linear-gradient(90deg, rgba(0, 0, 0, .36) 0%, rgba(0, 0, 0, .63) 38%, rgba(0, 0, 0, .68) 60%, rgba(0, 0, 0, .56) 75%, rgba(0, 0, 0, .24) 100%) !important;
+}
+@media (max-width: 640px) {
+  #newsletter .cta-bg { object-position: 42% 50%; }
+  #newsletter::before {
+    background: linear-gradient(180deg, rgba(0, 0, 0, .39), rgba(0, 0, 0, .69) 24%, rgba(0, 0, 0, .66) 77%, rgba(0, 0, 0, .36)) !important;
+  }
+}
+</style>
 
 <style id="apf-footer-animated-pattern">
 /* Full-bleed, restrained animated grid. No corner artwork or logo watermark. */
@@ -1442,16 +1463,16 @@ footer > .container { position: relative !important; z-index: 1 !important; }
 </div>
 </header>
 <main id="top">
-<!-- Hero: three-slide banner -->
+<!-- Homepage hero carousel -->
 <div class="hero-wrap">
-<section aria-label="Connecting Canada and Asia." aria-roledescription="slide" class="hero slide" id="hero"><video aria-hidden="true" autoplay="" class="hero-video apf-hero-film" loop="" muted="" playsinline="" poster="https://images.pexels.com/photos/7688339/pexels-photo-7688339.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600&amp;q=78" preload="metadata"><source src="https://videos.pexels.com/video-files/7844849/7844849-hd_1920_1080_30fps.mp4" type="video/mp4"/></video>
+<section aria-label="Strengthening Canada–Asia Ties." aria-roledescription="slide" class="hero slide hero-teal" id="hero"><video aria-hidden="true" autoplay="" class="hero-video apf-hero-film" loop="" muted="" playsinline="" poster="https://images.pexels.com/photos/5673481/pexels-photo-5673481.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600&amp;q=78" preload="metadata"><source src="https://videos.pexels.com/video-files/6173215/6173215-hd_1920_1080_30fps.mp4" type="video/mp4"/></video>
 <div class="container">
-<span class="eyebrow">Asia Pacific Foundation of Canada</span>
-<h1 class="display"><span class="hl">Connecting Canada</span><span class="hl"><em>and Asia.</em></span></h1>
-<p class="lead">Independent research, education, and dialogue that help Canadians understand, connect with, and succeed in Asia.</p>
+<span class="eyebrow">Connect</span>
+<h1 class="display"><span class="hl">Strengthening</span><span class="hl"><em>Canada–Asia Ties.</em></span></h1>
+<p class="lead">Bringing together policy, business, and research communities to build enduring connections across the Indo-Pacific.</p>
 <div class="hero-actions" style="display:flex;">
-<a class="btn btn-red" href="#focus">Explore Our Work <span class="arr">→</span></a>
-<a class="btn btn-ghost" href="research.html">Discover Our Research</a>
+<a class="btn btn-red" href="#newsletter">Join Our Community <span class="arr">→</span></a>
+<a class="btn btn-ghost" href="#get-involved">Ways to Get Involved</a>
 </div>
 </div>
 </section>
@@ -1466,18 +1487,7 @@ footer > .container { position: relative !important; z-index: 1 !important; }
 </div>
 </div>
 </section>
-<section aria-label="Strengthening Canada–Asia Ties." aria-roledescription="slide" class="hero slide hero-teal" hidden="" id="hero-3"><video aria-hidden="true" autoplay="" class="hero-video apf-hero-film" loop="" muted="" playsinline="" poster="https://images.pexels.com/photos/5673481/pexels-photo-5673481.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600&amp;q=78" preload="metadata"><source src="https://videos.pexels.com/video-files/6173215/6173215-hd_1920_1080_30fps.mp4" type="video/mp4"/></video>
-<div class="container">
-<span class="eyebrow">Connect</span>
-<h1 class="display"><span class="hl">Strengthening</span><span class="hl"><em>Canada–Asia Ties.</em></span></h1>
-<p class="lead">Bringing together policy, business, and research communities to build enduring connections across the Indo-Pacific.</p>
-<div class="hero-actions" style="display:flex;">
-<a class="btn btn-red" href="#newsletter">Join Our Community <span class="arr">→</span></a>
-<a class="btn btn-ghost" href="#get-involved">Ways to Get Involved</a>
-</div>
-</div>
-</section>
-<div aria-label="Hero slideshow controls" class="hero-controls" role="group"><div class="container hc-grid"><div></div><div aria-label="Choose banner" class="hero-dots" role="group"><button aria-current="true" aria-label="Banner 1" class="hero-dot" data-index="0" type="button"></button><button aria-current="false" aria-label="Banner 2" class="hero-dot" data-index="1" type="button"></button><button aria-current="false" aria-label="Banner 3" class="hero-dot" data-index="2" type="button"></button></div><div class="hc-buttons"><button aria-label="Previous slide" class="hero-btn" id="hero-prev" type="button"><svg aria-hidden="true" height="14" viewbox="0 0 24 24" width="14"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"></path></svg></button><button aria-label="Pause all animation" aria-pressed="false" class="hero-btn" id="hero-pause" type="button"><svg aria-hidden="true" class="i-pause" height="12" viewbox="0 0 24 24" width="12"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"></path></svg><svg aria-hidden="true" class="i-play" height="12" viewbox="0 0 24 24" width="12"><path d="M8 5l11 7-11 7z" fill="currentColor"></path></svg></button><button aria-label="Next slide" class="hero-btn" id="hero-next" type="button"><svg aria-hidden="true" height="14" viewbox="0 0 24 24" width="14"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"></path></svg></button></div></div></div></div>
+<div aria-label="Hero slideshow controls" class="hero-controls" role="group"><div class="container hc-grid"><div></div><div aria-label="Choose banner" class="hero-dots" role="group"><button aria-current="true" aria-label="Banner 1" class="hero-dot" data-index="0" type="button"></button><button aria-current="false" aria-label="Banner 2" class="hero-dot" data-index="1" type="button"></button></div><div class="hc-buttons"><button aria-label="Previous slide" class="hero-btn" id="hero-prev" type="button"><svg aria-hidden="true" height="14" viewbox="0 0 24 24" width="14"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"></path></svg></button><button aria-label="Pause all animation" aria-pressed="false" class="hero-btn" id="hero-pause" type="button"><svg aria-hidden="true" class="i-pause" height="12" viewbox="0 0 24 24" width="12"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"></path></svg><svg aria-hidden="true" class="i-play" height="12" viewbox="0 0 24 24" width="12"><path d="M8 5l11 7-11 7z" fill="currentColor"></path></svg></button><button aria-label="Next slide" class="hero-btn" id="hero-next" type="button"><svg aria-hidden="true" height="14" viewbox="0 0 24 24" width="14"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"></path></svg></button></div></div></div></div>
 <!-- Stats + intro cards -->
 <div class="container">
 <div class="stats-wrap reveal">
@@ -1519,7 +1529,7 @@ footer > .container { position: relative !important; z-index: 1 !important; }
 <a class="pc-more" href="research.html">Explore Research <span>↗</span></a>
 <div class="pc-metric"><div class="num">01</div><div class="lbl">Focus area</div></div>
 </div>
-<div class="pc-media has-gif"><img alt="Cargo ships and shipping containers illustrating Canada–Asia trade" class="pc-gif apf-media" loading="lazy" src="https://images.pexels.com/photos/339379/pexels-photo-339379.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600&amp;q=80"/><span class="cap">Trade &amp; economic ties</span></div>
+<div class="pc-media has-gif"><img alt="Aerial view of shipping containers arranged in rows at a port terminal" class="pc-gif apf-media" loading="lazy" src="assets/trade-investment.webp"/><span class="cap">Trade &amp; economic ties</span></div>
 </div>
 </article>
 <article aria-selected="false" class="pcard" role="tab" style="--c:#086A9D;--t:#fff;" tabindex="0">
@@ -1595,7 +1605,7 @@ footer > .container { position: relative !important; z-index: 1 !important; }
 <blockquote>Building evidence-informed policy dialogue on trade, regional security, emerging technologies, and international co-operation.</blockquote>
 <div class="by"><strong>Policy Dialogue</strong>We connect Canadian and Indo-Pacific perspectives through research, education, and high-level dialogue.</div>
 </div>
-<div class="cust-kpis"><img alt="Agricultural crops growing in an organized field" class="cust-img apf-media" decoding="async" loading="lazy" src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1400&amp;q=80"/></div>
+<div class="cust-kpis"><img alt="Three participants reviewing documents around a meeting table" class="cust-img apf-media" decoding="async" loading="lazy" src="assets/policy-dialogue.webp"/></div>
 </div>
 <div class="cust-body" hidden="" id="cust-3">
 <div>
@@ -1686,7 +1696,7 @@ footer > .container { position: relative !important; z-index: 1 !important; }
 <a class="muted-link" href="#approach" style="margin-top:20px;">Explore our approach <span>↗</span></a>
 </div>
 </div>
-<div aria-hidden="true" class="loop reveal comm-loop" style="margin-bottom:56px;"><img alt="Business professionals working together with a laptop" class="loop-video apf-media" loading="lazy" src="https://images.pexels.com/photos/7652054/pexels-photo-7652054.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=950&amp;q=78"/><span class="loop-label">Connecting Canada with Asia</span></div>
+<div aria-hidden="true" class="loop reveal comm-loop" style="margin-bottom:56px;"><img alt="Two colleagues working together at a laptop" class="loop-video apf-media" loading="lazy" src="assets/connecting-canada-asia.webp"/><span class="loop-label">Connecting Canada with Asia</span></div>
 <div class="mission-cols">
 <div class="mission-col reveal" style="--d:0s">
 <h3>Our mission</h3>
@@ -1713,7 +1723,7 @@ footer > .container { position: relative !important; z-index: 1 !important; }
 <h2 class="display">Explore What <em>Connects Us.</em></h2>
 <p style="font-size:17px;">Explore programs, subscribe to Asia Watch, and support meaningful Canada–Asia connections.</p>
 </div>
-<div aria-hidden="true" class="loop reveal ind-loop" style="margin-bottom:56px;"><img alt="Professional team planning a collaborative initiative" class="loop-video apf-media" loading="lazy" src="https://images.pexels.com/photos/6913339/pexels-photo-6913339.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=950&amp;q=78"/><span class="loop-label">Get involved</span></div>
+<div aria-hidden="true" class="loop reveal ind-loop" style="margin-bottom:56px;"><img alt="Three colleagues collaborating around a laptop" class="loop-video apf-media" loading="lazy" src="assets/get-involved.webp"/><span class="loop-label">Get involved</span></div>
 <div class="ind-grid">
 <a class="ind-card reveal" href="#contact"><h3>Partnerships</h3><p>Connect with Canadian and Indo-Pacific institutions, experts, and partners.</p><span class="go">→</span></a>
 <a class="ind-card reveal" href="#newsletter" style="--d:.08s"><h3>Asia Watch</h3><p>Get Asia Watch and insights on research, events, and policy developments.</p><span class="go">→</span></a>
@@ -1731,7 +1741,7 @@ footer > .container { position: relative !important; z-index: 1 !important; }
 </div>
 <!-- Ready to get involved + newsletter -->
 <section aria-labelledby="cta-title" class="cta" id="newsletter">
-<img alt="" aria-hidden="true" class="cta-bg apf-media" decoding="async" loading="lazy" src="https://images.pexels.com/photos/34060583/pexels-photo-34060583.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600&amp;q=78"/>
+<img alt="" aria-hidden="true" class="cta-bg apf-media" decoding="async" loading="lazy" src="assets/asia-watch-globe.webp"/>
 <div class="container cta-inner reveal">
 <span class="eyebrow cta-eyebrow">Asia Watch</span>
 <h2 id="cta-title">Stay Informed <br/><em>on Asia.</em></h2>
